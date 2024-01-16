@@ -94,12 +94,15 @@
         
     }
     /* service section responsive */
-    @media screen  and(max-width:600px) {
+    @media screen  and (max-width:600px) {
         .service-sub-container{
             flex-direction: column;
+            
         }
         .ser-card{
             max-width: 100%;
+            font-size: medium;
+            margin-bottom: 10px;
         }
         
     }
@@ -171,8 +174,11 @@
         width: 100%;
         
     }
+    .footer a >img{
+        margin-left: 25%;
+    }
     .footer-icon{
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     
 }
