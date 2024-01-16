@@ -274,7 +274,7 @@ margin-bottom: 30px;
 .chose-container{
     margin-top: 21px;
     max-width: 90%;
-    height: 600px;
+    height: 100%;
 }
 .chose-title{
     color: #131318;
@@ -298,7 +298,7 @@ line-height: 26px; /* 162.5% */
 }
 .card-con{
     display: flex;
-    margin-left: 5%;
+    margin-left:12%;
     align-items: center;
     justify-content: center;
     gap: 14px;
@@ -319,7 +319,7 @@ background: rgba(251, 181, 99, 0.05);
 #cardtwo{
    
     margin: 10px auto;
-   margin-left: 560px;
+   margin-left: 460px;
 }
 .card img{
     width: 64px;
@@ -338,3 +338,162 @@ line-height: 26px; /* 162.5% */
 margin-left: 32px;
 margin-top: 10px;
 }
+
+
+
+/* perfect container style */
+
+.perfect-container{
+    width: 80%;
+    height: 100%;
+    margin-left:12%;
+    display: flex;
+     gap: 130px;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+.perfect-des{
+    height: 100%;
+}
+.perfect-title{
+    color: #131318;
+font-family: Mulish;
+font-size: 35px;
+font-style: normal;
+font-weight: 800;
+line-height: 60px; /* 150% */
+width: 448px;
+}
+.perfect-descr{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px; /* 162.5% */
+width: 532px;
+}
+.perfect-descr li{
+    width: 518px;
+    color: #131318;
+font-family: Mulish;
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 162.5% */
+}
+.button-per{
+    margin-top: 7px;
+    width: 124px;
+height: 42px;
+border-radius:  8px ;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+border-color: #FF5400;
+}
+.perfect-video{
+    height: 100%;
+}
+
+/* letter-style */
+
+.letter-container{
+    width: 90%;
+    height: 10%;
+    margin: 5% 10%;
+    display: flex;
+    gap: 50px;
+}
+.news-letter{
+   width: 40%;
+   height: 100%;
+   border-radius: 16px;
+border: 1px solid #FF5400;
+align-items: center;
+padding: 0 auto;
+}
+.letter-title{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 17px;
+margin-left: 55px;
+
+
+}
+.letter-des{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-top: 17px;
+margin-left: 55px;
+}
+.let{
+    margin-left:55px ;
+    margin-top: 15px;
+    width:393px ;
+    color: rgba(19, 19, 24, 0.05);
+}
+.letter-input{
+    border-color:rgba(19, 19, 24, 0.05) ;
+    width: 393px;
+height: 52px;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+margin-top: 17px;
+margin-left: 55px;
+}
+#sub{
+    background-color: #FF5400;
+    margin-bottom: 15px;
+    color: #FFF;
+}
+.letter-photo {
+    width: 58%;
+    background-repeat: no-repeat;
+    border-radius: 16px  ;
+    max-height: 100%;
+   
+    background-image: url("Images/Rectangle\ 8\ \(1\).png");
+    
+}
+.letter-pic{
+    width: 324px;
+height: 120px;
+transform: rotate(-19.628deg);
+border-radius: 16px;
+background: #FF5400;
+border-color: #FF5400;
+margin-top: 200px;
+margin-left: 342px;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.letter-pic span{
+    color: #FFF;
+font-family: Mulish;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+/* footer style */
