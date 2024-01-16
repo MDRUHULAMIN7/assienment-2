@@ -36,6 +36,15 @@ font-weight: 800;
 line-height: normal;
 }
 
+
+.navtwo li{
+    list-style: none;
+   
+}
+
+
+
+
 .navtwo a{
     text-decoration: none;
     list-style: none;
@@ -49,11 +58,31 @@ line-height: normal;
 
    
 }
+.respon-nav{
+    color:rgb(255, 0, 230) ;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.active:hover{
+    background: #723995;
+    border-radius: 5px;
+    transition: 0.5s;
+  
+}
+
 .navtwo{
+    margin-right: 8%;
     display: flex;
     margin-top:3% ;
-    margin-right: 5%;
+   
+}
+
+.navtwo ul{
+    display: flex;
+   
     gap: 30px;
+    
 }
 #home{
     color: #FF5400;
@@ -63,7 +92,29 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+height: 30px;
+width: 100%;
+
 }
+.checkbtn{
+    font-size: 30px;
+    color:#FF5400;
+    position: absolute;
+    left: 1490px;
+    cursor: pointer;
+    display: none;
+
+
+}
+#check{
+    display: none;
+}
+
+
+
+
+
+
 
 
 /* baner-section */
@@ -339,7 +390,62 @@ margin-left: 32px;
 margin-top: 10px;
 }
 
+/* service section container */
 
+.service-container{
+    max-width:90%;
+    max-height: 100%;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align:center ;
+    
+}
+.service-title{
+    font-size: 2.5rem;
+}
+.para{
+    font-size: larger;
+    color: #5A5A5D;
+    margin-top: 12px;
+}
+ .service-sub-container{
+    max-width:90%;
+    max-height: 100%;
+    margin-top: 3%;
+    display: flex;
+    gap: 2%;
+    margin-left: 5%;
+ }
+ .ser-card{
+    max-width: 28%;
+    max-height: 100%;
+    background-color:#FF5400 ;
+    border-color: #FF5400;
+    border-radius: 10PX;
+   
+
+ }
+ .ser-card:hover{
+    transform: scale(1.1);
+    transition:transform 1s  ease-in-out 0.5s ;
+    background-color: aqua;
+    color: #080707;
+ }
+ .ser-card img{
+    height: 50%;
+    width: 50%;
+    padding-top: 5px;
+    color: #f90000;
+    background-color: #ed560b;
+ }
+ .ser-card h1{
+    margin-top: 4px;
+    color: #FFF;
+ }
+ .ser-card p{
+    color: aliceblue;
+    margin: 4px 5px ;
+ }
 
 /* perfect container style */
 

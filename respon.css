@@ -13,7 +13,11 @@
     .nav{
         flex-direction: column;
     }
-    
+
+  
+ .checkbtn{
+    display: block;
+ }   
 }
 
 /* baner-respomsive */
@@ -89,6 +93,19 @@
         }
         
     }
+    /* service section responsive */
+    @media screen  and(max-width:600px) {
+        .service-sub-container{
+            flex-direction: column;
+        }
+        .ser-card{
+            max-width: 100%;
+        }
+        
+    }
+
+
+
    /* perfect container responsive */
 @media screen  and (max-width:600px){
     .perfect-container{
