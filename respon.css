@@ -148,5 +148,15 @@
 }
 
 /* footer responsive */
-
+@media screen and (max-width:600px){
+    .footer{
+        margin-left: 40px;
+        width: 100%;
+        
+    }
+    .footer-icon{
+        flex-direction: column;
+    }
+    
+}
 
