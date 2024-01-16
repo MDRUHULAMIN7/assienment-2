@@ -1,0 +1,86 @@
+
+
+
+/* nav responsive */
+@media screen and (max-width:600px){
+    .nav{
+        flex-direction: column;
+    }
+    
+}
+
+/* baner-respomsive */
+@media screen and (max-width:600px){
+    .baner-container{
+        height: 143%;
+        width: 100%;
+        position: static;
+    }
+    .input-section{
+        flex-direction: column;
+    }
+    
+}
+
+/* populer section responsive */
+
+@media screen and (max-width:600px){
+   *{
+    margin: 0px;
+   }
+    .populer-container{
+        flex-direction: column;
+        margin: 0 4%;
+        align-items: center;
+        
+     
+        margin-top: 240px;
+    }
+    .populaer-des{
+        font-size: 2em;
+        width: 200%;
+        height: 80%;
+        margin: auto;
+        padding: auto;
+    }
+    .populer-photo img{
+        align-items: center;
+        width: 100%;
+      
+
+    }
+    
+    }
+
+    /* destination section responsive */
+
+    @media screen and (max-width:600px){
+        .photo-1, .photo-3, .photo-6 {
+            flex-direction: column;
+            max-height: 100%;
+            max-width: 100%;
+        }
+        
+    }
+
+    /* chose-section responsive */
+
+    @media screen and (max-width:600px){
+        .chose-container{
+            margin-top: 2%;
+        }
+        .card{
+            width: 100%;
+        }
+        .card-con{
+            flex-direction: column;
+            width: 100%;
+        }
+        #cardtwo{
+            margin-left: 14px;
+            width: 100%;
+        }
+        
+    }
+   
+
