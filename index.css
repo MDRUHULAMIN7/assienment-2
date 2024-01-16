@@ -1,33 +1,27 @@
 *{
     margin: 0px;
-    padding: opx;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
 }
 
 /* nav style */
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-}
-.icon{
-    display: flex;
+nav{
+    height: 100%;
+    width: 90%;
     margin-left: 5%;
-    margin-top: 3%;
-    gap: 4px;
+    padding-top: 2%;
 }
-.icon h1{
+label.logo{
     color: #131318;
 font-family: Mulish;
 font-size: 36px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
-align-items: center;
-justify-content: start;
-display: flex;
 }
-
-.travel{
+label.logo span{
     color: #FF5400;
 font-family: Mulish;
 font-size: 36px;
@@ -35,19 +29,15 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 }
-
-
-.navtwo li{
-    list-style: none;
-   
+nav ul{
+    float: right;
 }
-
-
-
-
-.navtwo a{
-    text-decoration: none;
-    list-style: none;
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+    
+}
+nav ul li a{
     color: var(--Dark-02, #424247);
 text-align: center;
 font-family: Mulish;
@@ -55,66 +45,24 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-
-   
+padding: 7px 13px;
+border-radius: 4px;
 }
-.respon-nav{
-    color:rgb(255, 0, 230) ;
-    font-size: 17px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.active:hover{
-    background: #723995;
-    border-radius: 5px;
+a.active, a:hover{
+    background-color: #ed560b;
     transition: 0.5s;
-  
-}
-
-.navtwo{
-    margin-right: 8%;
-    display: flex;
-    margin-top:3% ;
-   
-}
-
-.navtwo ul{
-    display: flex;
-   
-    gap: 30px;
-    
-}
-#home{
-    color: #FF5400;
-text-align: center;
-font-family: Mulish;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-height: 30px;
-width: 100%;
-
 }
 .checkbtn{
     font-size: 30px;
-    color:#FF5400;
-    position: absolute;
-    left: 1490px;
+    color:#ed560b;
+    float: right;
+    margin-right: 5px;
     cursor: pointer;
     display: none;
-
-
 }
 #check{
     display: none;
 }
-
-
-
-
-
-
 
 
 /* baner-section */
